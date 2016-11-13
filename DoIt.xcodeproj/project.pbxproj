@@ -56,16 +56,10 @@
 		707872451DD8EE5100A14848 /* DoIt */ = {
 			isa = PBXGroup;
 			children = (
+				7078725E1DD8EEFD00A14848 /* Resource */,
 				7078725D1DD8EE6B00A14848 /* Model */,
 				7078725C1DD8EE6A00A14848 /* View */,
 				7078725B1DD8EE6800A14848 /* Controller */,
-				707872461DD8EE5100A14848 /* AppDelegate.swift */,
-				707872481DD8EE5100A14848 /* ViewController.swift */,
-				7078724A1DD8EE5100A14848 /* Main.storyboard */,
-				707872501DD8EE5100A14848 /* Assets.xcassets */,
-				707872521DD8EE5100A14848 /* LaunchScreen.storyboard */,
-				707872551DD8EE5100A14848 /* Info.plist */,
-				7078724D1DD8EE5100A14848 /* DoIt.xcdatamodeld */,
 			);
 			path = DoIt;
 			sourceTree = "<group>";
@@ -73,6 +67,8 @@
 		7078725B1DD8EE6800A14848 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				707872461DD8EE5100A14848 /* AppDelegate.swift */,
+				707872481DD8EE5100A14848 /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -80,6 +76,8 @@
 		7078725C1DD8EE6A00A14848 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7078724A1DD8EE5100A14848 /* Main.storyboard */,
+				707872521DD8EE5100A14848 /* LaunchScreen.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -89,6 +87,16 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		7078725E1DD8EEFD00A14848 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				707872501DD8EE5100A14848 /* Assets.xcassets */,
+				7078724D1DD8EE5100A14848 /* DoIt.xcdatamodeld */,
+				707872551DD8EE5100A14848 /* Info.plist */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
